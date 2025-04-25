@@ -1,6 +1,6 @@
 public class Main {
     public void Escrever(String nome){
-        System.out.println("Nome: " + nome);
+        System.out.println("Bem-Vindo " + nome);
     }
 
     public static void main(String[] args) {
@@ -33,7 +33,12 @@ public class Main {
         };
         // Imprimindo a matriz
         System.out.println(Escola[1][3]);
-        
+
+        //nomedaclass instancia = new nomedaclass();
+        Main ChamarMetodo = new Main();
+        ChamarMetodo.Escrever("Ismael");
+
+
         System.out.println("");
 
         System.out.println("*****FIM DO PROGRAMA*****");
