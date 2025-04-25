@@ -1,4 +1,8 @@
 public class Main {
+    public void Escrever(String nome){
+        System.out.println("Nome: " + nome);
+    }
+
     public static void main(String[] args) {
         System.out.println("");
         System.out.println("");
@@ -29,6 +33,7 @@ public class Main {
         };
         // Imprimindo a matriz
         System.out.println(Escola[1][3]);
+        
         System.out.println("");
 
         System.out.println("*****FIM DO PROGRAMA*****");
