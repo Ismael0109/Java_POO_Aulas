@@ -1,4 +1,4 @@
-
+package Metodos;
 
 public class Praticando{
 
@@ -16,7 +16,8 @@ public class Praticando{
                 System.out.println("Idade " + (x) + " " + (y) + " -> " + Idades[x][y]);
             }
         }
-        
+        MethodoSimples Chamar = new MethodoSimples();
+        Chamar.Saudacao("Santana");
     }
 
 }
